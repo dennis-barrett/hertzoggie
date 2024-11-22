@@ -1,6 +1,13 @@
 # Hertzoggie
 
-Hertzoggie is a collection of cookiecutter templates, particularly for Python projects.
+Hertzoggie is a collection of cookiecutter templates, particularly for Python projects. These templates are quite
+opinionated, and are tailored to my specific likes and needs (but others may find they like the structure). In
+particular:
+
+- They follow a specific folder structure.
+- Poetry is used for dependency management.
+- Ruff and Pyright are used for linting and type checking, respectively. Moreover, the generated `pyproject.toml`
+  contains settings for these tools that I tend to use on all of my Python projects.
 
 ## Usage
 
