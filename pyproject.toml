@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hertzoggie"
+version = "0.1.0"
+description = "A data science cookie-cutter template."
+authors = ["Dennis Barrett <dbarrett6@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+cookiecutter = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
