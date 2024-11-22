@@ -23,7 +23,8 @@ Then, use cookiecutter to generate a new project using a Hertzoggie template:
 cookiecutter https://github.com/dennis-barrett/hertzoggie.git --directory="template-name"
 ```
 
-Here `template-name` is one of the template types described in the next section.
+(Here `template-name` is one of the template types described in the next section.) After following the prompts, the
+project will be generated in the current directory.
 
 ## Templates
 
