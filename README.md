@@ -30,8 +30,11 @@ project will be generated in the current directory.
 
 There are currently two templates:
 
-- `py-pkg`
-- `py-ds`
+- `py-pkg`: This is a basic Python package template. It includes a `pyproject.toml` file, a `poetry.lock` file, and a
+  `README.md` file, and a very light folder structure.
+- `py-ds`: This is a Python package template for data science projects specifically. In addition to the features of the
+  `py-pkg` template, it has a more developed folder structure according to how my data science projects are typically
+  organised.
 
 ## Development
 
