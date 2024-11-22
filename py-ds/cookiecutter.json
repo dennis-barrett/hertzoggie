@@ -1,0 +1,26 @@
+{
+  "project_name": "My Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_description": "A data science project.",
+  "project_author": "Dennis Barrett",
+  "project_email": "dbarrett6@gmail.com",
+  "project_license": [
+    "MIT",
+    "Apache-2.0",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-only",
+    "GPL-3.0-or-later",
+    "LGPL-2.1-only",
+    "LGPL-2.1-or-later",
+    "LGPL-3.0-only",
+    "LGPL-3.0-or-later",
+    "Proprietary"
+  ],
+  "model_name": "my-model",
+  "init_git": true,
+  "init_poetry": true
+}
