@@ -10,9 +10,9 @@ if not re.match(MODULE_REGEX, project_slug):
     sys.exit(1)
 
 init_git = "{{ cookiecutter.init_git }}"
-if init_git:
+if init_git == "y":
     os.system("git init")
 
 init_poetry = "{{ cookiecutter.init_poetry }}"
-if init_poetry:
+if init_poetry == "y":
     os.system("poetry shell")
